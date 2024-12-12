@@ -1,0 +1,286 @@
+*
+{
+margin: 0%;
+padding: 0%;
+border:0%;
+background-color: #57555E;
+overflow: auto;
+}
+html{
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+/* headers Rules */
+Header{
+    text-shadow: 2px 2px gold;
+}
+/* Nave bar rules */
+nav{
+    
+    color: black;
+    height: 100%;
+    width: 100%;
+    
+}
+nav ul {
+   
+    text-align: left;
+    font-size: 30px;
+}
+#Navicon {
+    height: 10vh;
+}
+nav ul {
+    display: none;
+    list-style-type: none;
+    overflow: auto;
+    text-align: center;
+    
+}
+#Navicon:hover + ul, nav ul:hover {
+    display: block;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* Main Rules */
+main{
+
+ background-color: black;
+ width: 100%;
+ height: 760px;
+ font-size: 30px;
+ 
+}
+/* Header rules */
+header{
+    color: black;
+    font-size: 50px;
+}
+@media(max-width:940px){
+    li a:hover{
+        color: gold;
+        background-color: black;
+        }
+       li a{
+            margin-left: 3%;
+            margin-bottom: 5;
+            text-decoration: underline;
+        }
+   nav ul li {
+        text-align: left;
+        text-decoration: none;
+    }
+    article{
+        display: block;
+        color: black;
+        padding: 1%;
+        margin: 1%;
+        margin-bottom: 5%;
+    }
+    p{
+        
+        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-left: 2%;
+        
+        color: black;
+    }
+
+   table{
+    display: block;
+    color: black;
+    outline: 3px solid gold;
+   }
+   td,tr,th{
+    outline: 3px solid gold; 
+}
+   form{
+    width: 98%;
+    height: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%
+
+}
+video{
+   
+    margin-right: 2%;
+    margin-left: 12% ;
+    margin-top: 10%;
+    width: 300px;
+    height: 340px;
+}
+.Photos{
+    display: block;
+   
+    width: 370px;
+    height: 300px;
+    margin: 2%;
+    margin-left: 3%;
+}
+
+    
+}
+/* moblie rules*/
+@media (max-width:610px){
+    li a:hover{
+        color: gold;
+        background-color: black;
+        }
+       li a{
+            margin-left: 3%;
+            margin-bottom: 5;
+            text-decoration: underline;
+        }
+   nav ul li {
+        text-align: left;
+        text-decoration: none;
+    }
+    article{
+        display: block;
+        color: black;
+        padding: 1%;
+        margin: 1%;
+        margin-bottom: 5%;
+    }
+    p{
+        
+        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-left: 2%;
+        
+        color: black;
+    }
+
+   table{
+    display: block;
+    color: black;
+    outline: 3px solid gold;
+   }
+   td,tr,th{
+    outline: 3px solid gold; 
+}
+   form{
+    width: 98%;
+    height: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%
+
+}
+video{
+   
+    margin-right: 2%;
+    margin-left: 12% ;
+    margin-top: 10%;
+    width: 300px;
+    height: 340px;
+}
+.Photos{
+    display: block;
+   
+    width: 370px;
+    height: 300px;
+    margin: 2%;
+    margin-left: 3%;
+}
+
+}
+/* Desktop rules */
+@media (min-width: 1000px)
+{
+    nav ul{
+        outline: 10px solid black;
+        display: block;
+    }
+    #Navicon {
+        display: none;
+    }
+    
+    nav ul li {
+        width: 25%;
+        float: left;
+
+        
+    }
+     li a:hover{
+    color: gold;
+    background-color: black;
+    }
+    nav{
+        position:sticky;
+        top: 0;
+        overflow: hidden;
+    }
+    article{
+        display: block;
+        color: black;
+        padding: 1%;
+        margin: 1%;
+    }
+    p{
+        color: black;
+        margin: 1%;
+
+    }
+    table{
+        width: 98%;
+        height: 200;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 1%;
+        color: black;
+        outline: 3px solid gold;
+    }
+    td,tr,th{
+        outline: 3px solid gold; 
+    }
+    
+    video{
+        width: 98%;
+      margin-left: .5%;
+    }
+    .Photos{
+        display: block;
+        margin-left: 13%;
+    }
+    
+}
+/* Form rules */
+form{
+    width: 98%;
+    height: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%
+
+}
+
+label{
+    display: block;
+    padding-top: 2%;
+}
+input{
+    margin: 1%;
+    margin-top: 2%;
+    display: block;
+    padding: .5%;
+    background-color: black;
+    color:gold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+/* table rules */
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+

@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 1.5rem;
+    
+}
+header{
+    text-align: center;
+}
+header a.Header{
+    font-size: 200%;
+    text-align: center;
+    font-family: "Turret Road", serif;
+    font-weight: 500;
+    font-style: italic;
+    overflow: auto;
+    color: black;
+  }
+  /* Navegtion style rules */
+nav {
+    height: 5vh;
+    height: 100%;
+    
+}
+
+#Navicon {
+    height: 10vh;
+}
+a{
+    text-decoration: none;  
+}
+nav a{
+font-family: "Audiowide", sans-serif;
+font-weight: 0;
+font-size: 100%;
+font-style: italic;
+color: black;
+margin: 0%;
+padding: 0%;
+
+}
+
+
+nav a:hover{
+  background-color:black;
+  outline: 5px solid black;
+  color:  hsl(250, 54%, 64%);
+  opacity: 30%;
+}
+nav ul {
+    display: none;
+    list-style-type: none;
+    overflow: auto;
+    text-align: center;
+    
+}
+#Navicon:hover + ul, nav ul:hover {
+    display: block;
+}
+/* desckTop Rules*/
+@media (min-width: 1000px)
+{
+    nav ul{
+        outline: 10px solid black;
+    }
+    #Navicon {
+        display: none;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        width: 25%;
+        float: left;
+    }
+    .gridContainer{
+     display: block;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 400px 400px 400px 400px;
+        gap: 20px;
+        padding: 2%;
+    }
+    .important {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        box-shadow: 10px 15px 9px black;
+        text-align: center;
+        font-size: 150%;
+    }
+    
+
+}
+/* moblie rules*/
+@media (max-width:610px){
+    a{
+        text-decoration: underline;
+    }
+    header a.Header{
+        text-align: center;
+        text-decoration: none;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 400px 400px 400px 400px;
+        gap: 20px;
+        padding: 2%;
+    }
+
+    .gridContainer{
+        display: block;
+       }
+    figure{
+        display: none;
+    }
+
+}
+
+/* html style rules */
+html{
+    height: 100%;
+    background-image: linear-gradient(to bottom left,hsl(250, 36%, 26% ),hsl(250, 56%, 26% ),hsl(250, 88%, 26% ));
+    background-size: cover;
+}
+/* Grids rules */
+.gridItem {
+    overflow: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 50px hsl(221, 69%, 77%);
+}
+
+figure img{
+    width: 700px;
+  height: 500px;
+  object-fit: scale-down;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 50px hsl(221, 69%, 77%);
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+    display: block;
+}
